@@ -15,6 +15,10 @@ int main(){
     printf("\nYou entered: %d\n", i);
     double x;
     scanf("%lf", &x);
+    int gaurav = 5;
+    gaurav = 8;
+
+    return 0;
     
 }
 

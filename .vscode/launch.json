@@ -8,11 +8,20 @@
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}"
         },
+        
+
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
         {
             "name": "(gdb) Attach",
             "type": "cppdbg",
             "request": "attach",
-            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "program": "${workspaceFolder}/output/first.exe",
             "MIMode": "gdb",
             "miDebuggerPath": "/path/to/gdb",
             "setupCommands": [
