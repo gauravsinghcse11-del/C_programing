@@ -1,9 +1,21 @@
+/*
+Author: Gaurav Singh
+Purpose: This program prints out my name to the screen
+Date:
+*/
 #include <stdio.h>
-int main() {
-    int myfavoritenumber = 0;
-    printf("please enter your favorite number\n");
-    scanf("%d", &myfavoritenumber);
-    printf("you entered number: %d\n", myfavoritenumber);
-    return 0;
-
+int main(){
+    // this code is displaying my name
+    printf("hi, my name is Gaurav Singh");
+    printf("hi, my name is tillu singh");
+    char str[100];
+    int i;
+    printf("Enter a value :");
+    scanf("%d", &i);
+    printf("\nYou entered: %d\n", i);
+    double x;
+    scanf("%lf", &x);
+    
 }
+
+
